@@ -1,0 +1,232 @@
+---
+title: "Análise histórica dos óbitos por doenças associadas ao HIV no Estado do Pará"
+author: "Márcio V de G Affonso"
+date: "2022-12-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, error = FALSE, message = FALSE)
+```
+
+Considerando que estamos no mês **Dezembro Vermelho**, alusivo ao combate ao HIV/AIDS, buscou-se fazer uma análise histórica dos óbitos por doenças associadas ao HIV no Estado do Pará, no período entre 2011 e 2021. Os dados aqui utilizados estão disponíveis para consulta de forma agregada no [DATASUS](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/), que consolida as informações do **Sistema de Informação sobre Mortalidade** (SIM). Contudo, neste relatório foi utilizado o pacote `microdatasus`^1^, o qual permite a extração dos dados individualizados.
+
+
+^1^ [Link](https://www.scielo.br/j/csp/a/gdJXqcrW5PPDHX8rwPDYL7F/?lang=pt) para acessar o artigo intitulado **Microdatasus: pacote para download e pré-processamento de microdados do Departamento de Informática do SUS (DATASUS)**. 
+
+
+## Introdução
+
+
+* O que é o HIV?
+  
+  
+  + De acordo com o Ministério da Saúde^2^, HIV é a sigla em inglês do vírus da imunodeficiência humana, causador da **AIDS**. Esse vírus ataca o sistema imunológico, especialmente as células chamadas de linfócitos T CD4+. E é alterando o DNA dessa célula que o HIV se multiplica no organismo para continuar a infecção.
+  
+  
+* Doença pelo vírus da imunodeficiência humana (HIV)
+  
+  
+  + Na  Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde – 10ª Revisão (CID-10), os códigos B20 a B24 compõem o grupo Doença pelo vírus da imunodeficiência humana. Tais códigos são:
+
+  
+    + B20: Doença pelo vírus da imunodeficiência humana [HIV], resultando em doenças infecciosas e parasitárias
+    + B21: Doença pelo vírus da imunodeficiência humana [HIV], resultando em neoplasias malignas
+    + B22: Doença pelo vírus da imunodeficiência humana [HIV], resultando em outras doenças especificadas
+    + B23: Doença pelo vírus da imunodeficiência humana [HIV], resultando em outras doenças
+    + B24: Doença pelo vírus da imunodeficiência humana [HIV], não especificada
+
+
+^2^ Página do [Ministério da Saúde](https://www.gov.br/aids/pt-br/assuntos/hiv-aids/o-que-e) sobre o HIV/aids.
+
+## Análises
+
+
+### 1. Distribuição dos óbitos por doenças pelo HIV: um corte transversal
+
+```{r, include=FALSE}
+# 1. Leitura dos pacotes necessários para análise
+
+library(microdatasus)
+library(tidyverse)
+library(gtsummary)
+library(lubridate)
+library(geobr)
+library(readr)
+library(usethis)
+library(kableExtra)
+library(knitr)
+```
+
+
+```{r, eval=FALSE, include=FALSE}
+#2. Leitura dos dados
+## Pacote microdatasus permite a extração dos dados do DATASUS
+
+dados <- fetch_datasus(year_start = 2011, year_end = 2021,
+                       information_system = "SIM-DO",
+                       uf = "PA") %>% process_sim()
+
+#3. Selecionando apenas as variáveis de interesse
+dados <- dados %>% 
+  select(DTOBITO, SEXO, RACACOR, ESC, CAUSABAS, IDADEanos,
+         munResNome:munResArea)
+
+##3.1. Função para salvar os dados selecionados em um arquivo .csv, para agilizar a renderização do RMarkdown
+write_csv2(dados, "dados_hiv_pa2.csv")
+
+```
+
+
+```{r, include=FALSE}
+## 3.2. Leitura dos dados do arquivo .csv
+dados <- read_csv2("dados_hiv_pa2.csv")
+
+#4. Primeiro filtro: causa básica B20 a B24 - Doenças associadas ao HIV
+dados_hiv <- dados %>% 
+  filter(grepl("B20|B21|B22|B23|B24", CAUSABAS)) %>% 
+  mutate(CAUSABAS = substring(CAUSABAS, 1, 3))
+
+#5. Alterando variáveis
+## Alterando o tipo das variáveis DTOBITO, IDADEanos, munResLat e munResLon
+## Criando a nova variável ANO_OBITO e faixa_etaria
+## Reordenando as categorias da variável ESC
+
+dados_hiv <- dados_hiv %>% 
+  mutate(DTOBITO = ymd(DTOBITO),
+         ANO_OBITO = format(DTOBITO, format = "%Y"),
+         IDADEanos = as.numeric(IDADEanos)) %>% 
+  mutate_at(vars(munResLat, munResLon), as.numeric)
+
+dados_hiv$faixa_etaria <- cut(dados_hiv$IDADEanos,
+    breaks = c(0, 14, 19, 29, 39, 49, 59, 95),
+    labels = c("0 - 14", "15 - 19", "20 - 29", 
+               "30 - 39", "40 - 49", "50 - 59", "60+"))
+
+dados_hiv$ESC <- factor(dados_hiv$ESC,
+                        levels = c("Nenhuma", "1 a 3 anos", "4 a 7 anos",
+                                   "8 a 11 anos", "12 anos ou mais"))
+```
+
+Durante o período entre 2011 e 2021 no Estado do Pará foram registrados **`r nrow(dados_hiv)`** óbitos por doenças pelo HIV no SIM, o que representa **`r round(nrow(dados_hiv)/nrow(dados)*100, 2)`%** do total de óbitos registrados (`r nrow(dados)`).
+
+A **Tabela 1**, que sumariza as características dos óbitos que ocorreram nesse período, pode ser vista abaixo:
+
+```{r, echo=FALSE}
+#6. Tabela descritiva
+dados_hiv %>% 
+  select(SEXO, faixa_etaria, RACACOR, ESC, CAUSABAS, ANO_OBITO) %>% 
+  tbl_summary(label = list(SEXO ~ "Sexo", RACACOR ~ "Raça/Cor", ESC ~ "Escolaridade",
+              CAUSABAS ~ "Causa básica do óbito", faixa_etaria ~ "Faixa etária",
+              ANO_OBITO ~"Ano do óbito")) %>%
+  as_gt()
+
+```
+
+
+A partir dessa tabela podemos chegar a algumas conclusões, são elas:
+
+-   **68%** do total de indivíduos que foram a óbito eram do sexo masculino.
+
+-   **78%** do total de óbitos foram registrados como pardos.
+
+-   **65%** do total de indivíduos que foram a óbitos possuíam menos de 8 anos de estudo.
+
+-   **68%** dos óbitos foram devido a doenças infecciosas e parasitárias, resultantes da infecção por HIV.
+
+-   **90%** dos óbitos se concentraram na faixa etária de 20 a 59 anos.
+
+Quanto à distribuição dos óbitos, tais achados nos auxiliam na identificação de alguns grupos predominantes, contudo apenas essa análise transversal não é suficiente para identificarmos possíveis nuances e variações. Portanto, é necessária também uma análise temporal.
+
+
+### 2. Análise histórica dos óbitos por doenças pelo HIV: houve diferença ao longo dos anos?
+
+```{r, echo=FALSE}
+## 6.1. Frequência relativa para o texto
+freq_rel <- dados %>% 
+  mutate(DTOBITO = ymd(DTOBITO),
+         ANO_OBITO = format(DTOBITO, format = "%Y")) %>% 
+  select(ANO_OBITO, CAUSABAS) %>%
+  mutate(HIV = ifelse(grepl("B20|B21|B22|B23|B24", CAUSABAS), "1", "0")) %>% 
+  filter(ANO_OBITO %in% c(2011,2021)) %>% 
+  group_by(ANO_OBITO,HIV) %>% 
+  summarise(n = n()) %>% 
+  mutate(freq = paste0(round(n/sum(n)*100,2), "%"))
+```
+
+Considerando os resultados acima, buscou-se identificar se houve alguma mudança no perfil epidemiológico dos indivíduos que evoluíram a óbito devido doenças pelo HIV, no período de 2011 a 2021. 
+
+No geral, em 2011, foram registrados **`r freq_rel$n[2]`** óbitos por doenças pelo HIV, o que representou **`r freq_rel$freq[2]`** do total de mortes. Já em 2021, o número de óbitos foi de **`r freq_rel$n[4]`**, **`r freq_rel$freq[4]`** do total.   
+
+A **Tabela 2** por sua vez sumariza os resultados observados ao longo do período do estudo:
+
+```{r, echo=FALSE}
+dados_hiv %>% 
+  select(SEXO, faixa_etaria, RACACOR, ESC, CAUSABAS, ANO_OBITO) %>%  
+  tbl_summary(by = ANO_OBITO,
+              label = list(SEXO ~ "Sexo", RACACOR ~ "Raça/Cor", ESC ~ "Escolaridade",
+              CAUSABAS ~ "Causa básica do óbito", faixa_etaria ~ "Faixa etária"))
+```
+
+Nesse sentido, podemos observar as seguintes variações:
+
+-   A diferença entre os sexos e entre raça/cor não apresentaram grandes variações ao longo dos anos.
+
+-   Enquanto a porcentagem de indivíduos com escolaridade de 1 a 3 anos diminuiu consideravelmente de 2011 para 2021, de 31% para 17%, o inverso ocorreu com aqueles que possuíam escolaridade entre 8 e 11 anos, passando de 21% em 2011 para 36% em 2021.
+
+-   Ainda que os óbitos por doenças infecciosas e parasitárias resultantes da infecção por HIV continuem representando a maior parte dos casos, houve um aumento na porcentagem de óbitos por neoplasias malignas associadas ao HIV. Além disso, observou-se também uma diminuição na ocorrência de óbitos por outras doenças especificadas e não especificadas.
+
+-   Quanto à faixa etária, os óbitos nos indíviduos com idade entre 0 a 39 anos diminuíram entre 2011 e 2021, mas houve um aumento naqueles com idade acima de 40 anos, mais especificamente nos idosos acima dos 60 anos.
+
+
+Os gráficos a seguir confirmam as variações na distribuição da ocorrência dos óbitos de acordo com as diferentes variáveis estudadas, ao longo dos anos do estudo:
+
+```{r, echo=FALSE, fig.align='center'}
+## Selecionando apenas as variáveis para análisa gráfica
+dados_hiv_red_grafico <- dados_hiv %>% select(ANO_OBITO, SEXO, RACACOR, ESC,
+                                                  CAUSABAS, faixa_etaria)
+
+## Função para automatizar a construção dos dataframes: variáveis x nº de óbitos
+variaveis <- c("SEXO", "faixa_etaria", "RACACOR", "ESC", "CAUSABAS")
+
+out <- list()
+for (i in variaveis) {
+  tmp <- dados_hiv_red_grafico %>% 
+    group_by(ANO_OBITO, dados_hiv_red_grafico[i]) %>% 
+    count()
+  out <- c(out, list(tmp))
+}
+
+## Função para automatizar a construção dos gráficos
+out1 <- lapply(out, as.data.frame)
+
+new_name1 <- "Sexo"; new_name2 <- "Faixa etária"; new_name3 <- "Raça/Cor"
+new_name4 <- "Escolaridade"; new_name5 <- "Causa básica do óbito"
+names(out1[[1]])[2] <- new_name1
+names(out1[[2]])[2] <- new_name2
+names(out1[[3]])[2] <- new_name3
+names(out1[[4]])[2] <- new_name4
+names(out1[[5]])[2] <- new_name5
+
+graph <- lapply(out1, function(x)
+  p <- ggplot(x, aes(x = ANO_OBITO, y = n, fill = factor(x[,2]))) +
+    geom_col(position = "fill") + scale_y_continuous(labels = scales::percent) +
+    labs(x = "Ano do óbito", y = "Distribuição dos óbitos, em %", fill = names(x[,2])) +
+    theme_minimal() +
+    ggtitle(paste0("Distribuição dos óbitos de acordo com a variável ", colnames(x[2]))))
+
+graph
+```
+
+
+## Considerações finais
+
+
+A partir dos achados, pode-se concluir que houve uma mudança no perfil epidemiológico dos indivíduos que foram a óbito por doenças pelo HIV, no período entre 2011 e 2021, no Estado do Pará.
+
+As variações observadas nas variáveis faixa etária e escolaridade chamam atenção. Nesse sentido, pode-se supor que considerando o aumento da % de indivíduos acima dos 40 anos de idade que foram a óbito, pode também ter aumentado o tempo de escolaridade desses indivíduos.
+
+Quanto às causas básicas do óbito, é necessário um estudo investigativo mais específico para identificar outros fatores relacionados ao óbito, como a associação com doenças definidoras ou não da AIDS. 
+
+Conclui-se que, a definição detalhada do perfil de indivíduos que mais evoluíram a óbito pelas doenças por HIV no Estado do Pará, viabiliza o melhor planejamento e execução das políticas públicas que tenham como foco o combate ao HIV/aids. 
+
