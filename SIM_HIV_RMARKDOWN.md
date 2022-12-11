@@ -64,12 +64,12 @@ do total de óbitos registrados (437007).
 A **Tabela 1**, que sumariza as características dos óbitos que ocorreram
 nesse período, pode ser vista abaixo:
 
-<div id="ycoslroosi" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="auhjztzvvy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ycoslroosi .gt_table {
+#auhjztzvvy .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -94,7 +94,7 @@ nesse período, pode ser vista abaixo:
   border-left-color: #D3D3D3;
 }
 
-#ycoslroosi .gt_heading {
+#auhjztzvvy .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -106,12 +106,12 @@ nesse período, pode ser vista abaixo:
   border-right-color: #D3D3D3;
 }
 
-#ycoslroosi .gt_caption {
+#auhjztzvvy .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ycoslroosi .gt_title {
+#auhjztzvvy .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -123,7 +123,7 @@ nesse período, pode ser vista abaixo:
   border-bottom-width: 0;
 }
 
-#ycoslroosi .gt_subtitle {
+#auhjztzvvy .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -135,13 +135,13 @@ nesse período, pode ser vista abaixo:
   border-top-width: 0;
 }
 
-#ycoslroosi .gt_bottom_border {
+#auhjztzvvy .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ycoslroosi .gt_col_headings {
+#auhjztzvvy .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -156,7 +156,7 @@ nesse período, pode ser vista abaixo:
   border-right-color: #D3D3D3;
 }
 
-#ycoslroosi .gt_col_heading {
+#auhjztzvvy .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -176,7 +176,7 @@ nesse período, pode ser vista abaixo:
   overflow-x: hidden;
 }
 
-#ycoslroosi .gt_column_spanner_outer {
+#auhjztzvvy .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -188,15 +188,15 @@ nesse período, pode ser vista abaixo:
   padding-right: 4px;
 }
 
-#ycoslroosi .gt_column_spanner_outer:first-child {
+#auhjztzvvy .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ycoslroosi .gt_column_spanner_outer:last-child {
+#auhjztzvvy .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ycoslroosi .gt_column_spanner {
+#auhjztzvvy .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -208,7 +208,7 @@ nesse período, pode ser vista abaixo:
   width: 100%;
 }
 
-#ycoslroosi .gt_group_heading {
+#auhjztzvvy .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -234,7 +234,7 @@ nesse período, pode ser vista abaixo:
   text-align: left;
 }
 
-#ycoslroosi .gt_empty_group_heading {
+#auhjztzvvy .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -249,15 +249,15 @@ nesse período, pode ser vista abaixo:
   vertical-align: middle;
 }
 
-#ycoslroosi .gt_from_md > :first-child {
+#auhjztzvvy .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ycoslroosi .gt_from_md > :last-child {
+#auhjztzvvy .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ycoslroosi .gt_row {
+#auhjztzvvy .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -276,7 +276,7 @@ nesse período, pode ser vista abaixo:
   overflow-x: hidden;
 }
 
-#ycoslroosi .gt_stub {
+#auhjztzvvy .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -289,7 +289,7 @@ nesse período, pode ser vista abaixo:
   padding-right: 5px;
 }
 
-#ycoslroosi .gt_stub_row_group {
+#auhjztzvvy .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -303,11 +303,11 @@ nesse período, pode ser vista abaixo:
   vertical-align: top;
 }
 
-#ycoslroosi .gt_row_group_first td {
+#auhjztzvvy .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ycoslroosi .gt_summary_row {
+#auhjztzvvy .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -317,16 +317,16 @@ nesse período, pode ser vista abaixo:
   padding-right: 5px;
 }
 
-#ycoslroosi .gt_first_summary_row {
+#auhjztzvvy .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#ycoslroosi .gt_first_summary_row.thick {
+#auhjztzvvy .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ycoslroosi .gt_last_summary_row {
+#auhjztzvvy .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -336,7 +336,7 @@ nesse período, pode ser vista abaixo:
   border-bottom-color: #D3D3D3;
 }
 
-#ycoslroosi .gt_grand_summary_row {
+#auhjztzvvy .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -346,7 +346,7 @@ nesse período, pode ser vista abaixo:
   padding-right: 5px;
 }
 
-#ycoslroosi .gt_first_grand_summary_row {
+#auhjztzvvy .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -356,11 +356,11 @@ nesse período, pode ser vista abaixo:
   border-top-color: #D3D3D3;
 }
 
-#ycoslroosi .gt_striped {
+#auhjztzvvy .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ycoslroosi .gt_table_body {
+#auhjztzvvy .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -369,7 +369,7 @@ nesse período, pode ser vista abaixo:
   border-bottom-color: #D3D3D3;
 }
 
-#ycoslroosi .gt_footnotes {
+#auhjztzvvy .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -383,7 +383,7 @@ nesse período, pode ser vista abaixo:
   border-right-color: #D3D3D3;
 }
 
-#ycoslroosi .gt_footnote {
+#auhjztzvvy .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -392,7 +392,7 @@ nesse período, pode ser vista abaixo:
   padding-right: 5px;
 }
 
-#ycoslroosi .gt_sourcenotes {
+#auhjztzvvy .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -406,7 +406,7 @@ nesse período, pode ser vista abaixo:
   border-right-color: #D3D3D3;
 }
 
-#ycoslroosi .gt_sourcenote {
+#auhjztzvvy .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -414,64 +414,64 @@ nesse período, pode ser vista abaixo:
   padding-right: 5px;
 }
 
-#ycoslroosi .gt_left {
+#auhjztzvvy .gt_left {
   text-align: left;
 }
 
-#ycoslroosi .gt_center {
+#auhjztzvvy .gt_center {
   text-align: center;
 }
 
-#ycoslroosi .gt_right {
+#auhjztzvvy .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ycoslroosi .gt_font_normal {
+#auhjztzvvy .gt_font_normal {
   font-weight: normal;
 }
 
-#ycoslroosi .gt_font_bold {
+#auhjztzvvy .gt_font_bold {
   font-weight: bold;
 }
 
-#ycoslroosi .gt_font_italic {
+#auhjztzvvy .gt_font_italic {
   font-style: italic;
 }
 
-#ycoslroosi .gt_super {
+#auhjztzvvy .gt_super {
   font-size: 65%;
 }
 
-#ycoslroosi .gt_footnote_marks {
+#auhjztzvvy .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#ycoslroosi .gt_asterisk {
+#auhjztzvvy .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ycoslroosi .gt_indent_1 {
+#auhjztzvvy .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ycoslroosi .gt_indent_2 {
+#auhjztzvvy .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ycoslroosi .gt_indent_3 {
+#auhjztzvvy .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ycoslroosi .gt_indent_4 {
+#auhjztzvvy .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ycoslroosi .gt_indent_5 {
+#auhjztzvvy .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -615,12 +615,12 @@ número de óbitos foi de **708**, **1.36%** do total.
 A **Tabela 2** por sua vez sumariza os resultados observados ao longo do
 período do estudo:
 
-<div id="lgcrwvokru" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="kbnfiaysuz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#lgcrwvokru .gt_table {
+#kbnfiaysuz .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -645,7 +645,7 @@ período do estudo:
   border-left-color: #D3D3D3;
 }
 
-#lgcrwvokru .gt_heading {
+#kbnfiaysuz .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -657,12 +657,12 @@ período do estudo:
   border-right-color: #D3D3D3;
 }
 
-#lgcrwvokru .gt_caption {
+#kbnfiaysuz .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#lgcrwvokru .gt_title {
+#kbnfiaysuz .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -674,7 +674,7 @@ período do estudo:
   border-bottom-width: 0;
 }
 
-#lgcrwvokru .gt_subtitle {
+#kbnfiaysuz .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -686,13 +686,13 @@ período do estudo:
   border-top-width: 0;
 }
 
-#lgcrwvokru .gt_bottom_border {
+#kbnfiaysuz .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#lgcrwvokru .gt_col_headings {
+#kbnfiaysuz .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -707,7 +707,7 @@ período do estudo:
   border-right-color: #D3D3D3;
 }
 
-#lgcrwvokru .gt_col_heading {
+#kbnfiaysuz .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -727,7 +727,7 @@ período do estudo:
   overflow-x: hidden;
 }
 
-#lgcrwvokru .gt_column_spanner_outer {
+#kbnfiaysuz .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -739,15 +739,15 @@ período do estudo:
   padding-right: 4px;
 }
 
-#lgcrwvokru .gt_column_spanner_outer:first-child {
+#kbnfiaysuz .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#lgcrwvokru .gt_column_spanner_outer:last-child {
+#kbnfiaysuz .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#lgcrwvokru .gt_column_spanner {
+#kbnfiaysuz .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -759,7 +759,7 @@ período do estudo:
   width: 100%;
 }
 
-#lgcrwvokru .gt_group_heading {
+#kbnfiaysuz .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -785,7 +785,7 @@ período do estudo:
   text-align: left;
 }
 
-#lgcrwvokru .gt_empty_group_heading {
+#kbnfiaysuz .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -800,15 +800,15 @@ período do estudo:
   vertical-align: middle;
 }
 
-#lgcrwvokru .gt_from_md > :first-child {
+#kbnfiaysuz .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#lgcrwvokru .gt_from_md > :last-child {
+#kbnfiaysuz .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#lgcrwvokru .gt_row {
+#kbnfiaysuz .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -827,7 +827,7 @@ período do estudo:
   overflow-x: hidden;
 }
 
-#lgcrwvokru .gt_stub {
+#kbnfiaysuz .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -840,7 +840,7 @@ período do estudo:
   padding-right: 5px;
 }
 
-#lgcrwvokru .gt_stub_row_group {
+#kbnfiaysuz .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -854,11 +854,11 @@ período do estudo:
   vertical-align: top;
 }
 
-#lgcrwvokru .gt_row_group_first td {
+#kbnfiaysuz .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#lgcrwvokru .gt_summary_row {
+#kbnfiaysuz .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -868,16 +868,16 @@ período do estudo:
   padding-right: 5px;
 }
 
-#lgcrwvokru .gt_first_summary_row {
+#kbnfiaysuz .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#lgcrwvokru .gt_first_summary_row.thick {
+#kbnfiaysuz .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#lgcrwvokru .gt_last_summary_row {
+#kbnfiaysuz .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -887,7 +887,7 @@ período do estudo:
   border-bottom-color: #D3D3D3;
 }
 
-#lgcrwvokru .gt_grand_summary_row {
+#kbnfiaysuz .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -897,7 +897,7 @@ período do estudo:
   padding-right: 5px;
 }
 
-#lgcrwvokru .gt_first_grand_summary_row {
+#kbnfiaysuz .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -907,11 +907,11 @@ período do estudo:
   border-top-color: #D3D3D3;
 }
 
-#lgcrwvokru .gt_striped {
+#kbnfiaysuz .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#lgcrwvokru .gt_table_body {
+#kbnfiaysuz .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -920,7 +920,7 @@ período do estudo:
   border-bottom-color: #D3D3D3;
 }
 
-#lgcrwvokru .gt_footnotes {
+#kbnfiaysuz .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -934,7 +934,7 @@ período do estudo:
   border-right-color: #D3D3D3;
 }
 
-#lgcrwvokru .gt_footnote {
+#kbnfiaysuz .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -943,7 +943,7 @@ período do estudo:
   padding-right: 5px;
 }
 
-#lgcrwvokru .gt_sourcenotes {
+#kbnfiaysuz .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -957,7 +957,7 @@ período do estudo:
   border-right-color: #D3D3D3;
 }
 
-#lgcrwvokru .gt_sourcenote {
+#kbnfiaysuz .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -965,64 +965,64 @@ período do estudo:
   padding-right: 5px;
 }
 
-#lgcrwvokru .gt_left {
+#kbnfiaysuz .gt_left {
   text-align: left;
 }
 
-#lgcrwvokru .gt_center {
+#kbnfiaysuz .gt_center {
   text-align: center;
 }
 
-#lgcrwvokru .gt_right {
+#kbnfiaysuz .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#lgcrwvokru .gt_font_normal {
+#kbnfiaysuz .gt_font_normal {
   font-weight: normal;
 }
 
-#lgcrwvokru .gt_font_bold {
+#kbnfiaysuz .gt_font_bold {
   font-weight: bold;
 }
 
-#lgcrwvokru .gt_font_italic {
+#kbnfiaysuz .gt_font_italic {
   font-style: italic;
 }
 
-#lgcrwvokru .gt_super {
+#kbnfiaysuz .gt_super {
   font-size: 65%;
 }
 
-#lgcrwvokru .gt_footnote_marks {
+#kbnfiaysuz .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#lgcrwvokru .gt_asterisk {
+#kbnfiaysuz .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#lgcrwvokru .gt_indent_1 {
+#kbnfiaysuz .gt_indent_1 {
   text-indent: 5px;
 }
 
-#lgcrwvokru .gt_indent_2 {
+#kbnfiaysuz .gt_indent_2 {
   text-indent: 10px;
 }
 
-#lgcrwvokru .gt_indent_3 {
+#kbnfiaysuz .gt_indent_3 {
   text-indent: 15px;
 }
 
-#lgcrwvokru .gt_indent_4 {
+#kbnfiaysuz .gt_indent_4 {
   text-indent: 20px;
 }
 
-#lgcrwvokru .gt_indent_5 {
+#kbnfiaysuz .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
