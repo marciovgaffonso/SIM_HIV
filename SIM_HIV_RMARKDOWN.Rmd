@@ -54,6 +54,7 @@ library(lubridate)
 library(readr)
 library(usethis)
 library(kableExtra)
+library(rmarkdown)
 
 
 ```
@@ -120,8 +121,6 @@ dados_hiv %>%
               CAUSABAS ~ "Causa básica do óbito", faixa_etaria ~ "Faixa etária",
               ANO_OBITO ~"Ano do óbito")) 
 
-kable(table(dados_hiv$ESC))
-
 
 ```
 
@@ -139,6 +138,10 @@ A partir dessa tabela podemos chegar a algumas conclusões, são elas:
 -   **90%** dos óbitos se concentraram na faixa etária de 20 a 59 anos.
 
 Quanto à distribuição dos óbitos, tais achados nos auxiliam na identificação de alguns grupos predominantes, contudo apenas essa análise transversal não é suficiente para identificarmos possíveis nuances e variações. Portanto, é necessária também uma análise temporal.
+
+```{r}
+kable(table(dados_hiv$ESC))
+```
 
 
 ### 2. Análise histórica dos óbitos por doenças pelo HIV: houve diferença ao longo dos anos?
