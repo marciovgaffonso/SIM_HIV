@@ -163,11 +163,12 @@ No geral, em 2011, foram registrados **`r freq_rel$n[2]`** óbitos por doenças 
 A **Tabela 2** por sua vez sumariza os resultados observados ao longo do período do estudo:
 
 ```{r, echo=FALSE, results='asis'}
-dados_hiv %>% 
+tab_desc2 <- dados_hiv %>% 
   select(SEXO, faixa_etaria, RACACOR, ESC, CAUSABAS, ANO_OBITO) %>%  
   tbl_summary(by = ANO_OBITO,
               label = list(SEXO ~ "Sexo", RACACOR ~ "Raça/Cor", ESC ~ "Escolaridade",
               CAUSABAS ~ "Causa básica do óbito", faixa_etaria ~ "Faixa etária"))
+as_kable(tab_desc2)
 ```
 
 Nesse sentido, podemos observar as seguintes variações:
