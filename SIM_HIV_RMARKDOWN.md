@@ -64,14 +64,12 @@ do total de óbitos registrados (437007).
 A **Tabela 1**, que sumariza as características dos óbitos que ocorreram
 nesse período, pode ser vista abaixo:
 
-<div id="dauelsgvos"
-style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-
+<div id="epktaenkac" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#dauelsgvos .gt_table {
+#epktaenkac .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -96,7 +94,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-left-color: #D3D3D3;
 }
 
-#dauelsgvos .gt_heading {
+#epktaenkac .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -108,12 +106,12 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#dauelsgvos .gt_caption {
+#epktaenkac .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#dauelsgvos .gt_title {
+#epktaenkac .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -125,7 +123,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-width: 0;
 }
 
-#dauelsgvos .gt_subtitle {
+#epktaenkac .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -137,13 +135,13 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-width: 0;
 }
 
-#dauelsgvos .gt_bottom_border {
+#epktaenkac .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#dauelsgvos .gt_col_headings {
+#epktaenkac .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -158,7 +156,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#dauelsgvos .gt_col_heading {
+#epktaenkac .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -178,7 +176,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#dauelsgvos .gt_column_spanner_outer {
+#epktaenkac .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -190,15 +188,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 4px;
 }
 
-#dauelsgvos .gt_column_spanner_outer:first-child {
+#epktaenkac .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#dauelsgvos .gt_column_spanner_outer:last-child {
+#epktaenkac .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#dauelsgvos .gt_column_spanner {
+#epktaenkac .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -210,7 +208,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   width: 100%;
 }
 
-#dauelsgvos .gt_group_heading {
+#epktaenkac .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -236,7 +234,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   text-align: left;
 }
 
-#dauelsgvos .gt_empty_group_heading {
+#epktaenkac .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -251,15 +249,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: middle;
 }
 
-#dauelsgvos .gt_from_md > :first-child {
+#epktaenkac .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#dauelsgvos .gt_from_md > :last-child {
+#epktaenkac .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#dauelsgvos .gt_row {
+#epktaenkac .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -278,7 +276,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#dauelsgvos .gt_stub {
+#epktaenkac .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -291,7 +289,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#dauelsgvos .gt_stub_row_group {
+#epktaenkac .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -305,11 +303,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: top;
 }
 
-#dauelsgvos .gt_row_group_first td {
+#epktaenkac .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#dauelsgvos .gt_summary_row {
+#epktaenkac .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -319,16 +317,16 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#dauelsgvos .gt_first_summary_row {
+#epktaenkac .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#dauelsgvos .gt_first_summary_row.thick {
+#epktaenkac .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#dauelsgvos .gt_last_summary_row {
+#epktaenkac .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -338,7 +336,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#dauelsgvos .gt_grand_summary_row {
+#epktaenkac .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -348,7 +346,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#dauelsgvos .gt_first_grand_summary_row {
+#epktaenkac .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -358,11 +356,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-color: #D3D3D3;
 }
 
-#dauelsgvos .gt_striped {
+#epktaenkac .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#dauelsgvos .gt_table_body {
+#epktaenkac .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -371,7 +369,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#dauelsgvos .gt_footnotes {
+#epktaenkac .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -385,7 +383,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#dauelsgvos .gt_footnote {
+#epktaenkac .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -394,7 +392,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#dauelsgvos .gt_sourcenotes {
+#epktaenkac .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -408,7 +406,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#dauelsgvos .gt_sourcenote {
+#epktaenkac .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -416,436 +414,227 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#dauelsgvos .gt_left {
+#epktaenkac .gt_left {
   text-align: left;
 }
 
-#dauelsgvos .gt_center {
+#epktaenkac .gt_center {
   text-align: center;
 }
 
-#dauelsgvos .gt_right {
+#epktaenkac .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#dauelsgvos .gt_font_normal {
+#epktaenkac .gt_font_normal {
   font-weight: normal;
 }
 
-#dauelsgvos .gt_font_bold {
+#epktaenkac .gt_font_bold {
   font-weight: bold;
 }
 
-#dauelsgvos .gt_font_italic {
+#epktaenkac .gt_font_italic {
   font-style: italic;
 }
 
-#dauelsgvos .gt_super {
+#epktaenkac .gt_super {
   font-size: 65%;
 }
 
-#dauelsgvos .gt_footnote_marks {
+#epktaenkac .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#dauelsgvos .gt_asterisk {
+#epktaenkac .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#dauelsgvos .gt_indent_1 {
+#epktaenkac .gt_indent_1 {
   text-indent: 5px;
 }
 
-#dauelsgvos .gt_indent_2 {
+#epktaenkac .gt_indent_2 {
   text-indent: 10px;
 }
 
-#dauelsgvos .gt_indent_3 {
+#epktaenkac .gt_indent_3 {
   text-indent: 15px;
 }
 
-#dauelsgvos .gt_indent_4 {
+#epktaenkac .gt_indent_4 {
   text-indent: 20px;
 }
 
-#dauelsgvos .gt_indent_5 {
+#epktaenkac .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
 <table class="gt_table">
-<thead class="gt_col_headings">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;Characteristic&lt;/strong&gt;"><strong>Characteristic</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;N = 7,023&lt;/strong&gt;&lt;sup class=&quot;gt_footnote_marks&quot;&gt;1&lt;/sup&gt;"><strong>N = 7,023</strong><sup class="gt_footnote_marks">1</sup></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="label" class="gt_row gt_left">Sexo</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Feminino</td>
+<td headers="stat_0" class="gt_row gt_center">2,263 (32%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Masculino</td>
+<td headers="stat_0" class="gt_row gt_center">4,760 (68%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">Faixa etária</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    0 - 14</td>
+<td headers="stat_0" class="gt_row gt_center">70 (1.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    15 - 19</td>
+<td headers="stat_0" class="gt_row gt_center">80 (1.1%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    20 - 29</td>
+<td headers="stat_0" class="gt_row gt_center">1,327 (19%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    30 - 39</td>
+<td headers="stat_0" class="gt_row gt_center">2,219 (32%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    40 - 49</td>
+<td headers="stat_0" class="gt_row gt_center">1,699 (24%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    50 - 59</td>
+<td headers="stat_0" class="gt_row gt_center">1,021 (15%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    60+</td>
+<td headers="stat_0" class="gt_row gt_center">555 (8.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Unknown</td>
+<td headers="stat_0" class="gt_row gt_center">52</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">Raça/Cor</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Amarela</td>
+<td headers="stat_0" class="gt_row gt_center">23 (0.3%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Branca</td>
+<td headers="stat_0" class="gt_row gt_center">891 (13%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Indígena</td>
+<td headers="stat_0" class="gt_row gt_center">10 (0.1%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Parda</td>
+<td headers="stat_0" class="gt_row gt_center">5,426 (78%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Preta</td>
+<td headers="stat_0" class="gt_row gt_center">575 (8.3%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Unknown</td>
+<td headers="stat_0" class="gt_row gt_center">98</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">Escolaridade</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Nenhuma</td>
+<td headers="stat_0" class="gt_row gt_center">602 (9.9%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    1 a 3 anos</td>
+<td headers="stat_0" class="gt_row gt_center">1,551 (25%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    4 a 7 anos</td>
+<td headers="stat_0" class="gt_row gt_center">1,851 (30%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    8 a 11 anos</td>
+<td headers="stat_0" class="gt_row gt_center">1,666 (27%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    12 anos ou mais</td>
+<td headers="stat_0" class="gt_row gt_center">422 (6.9%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    Unknown</td>
+<td headers="stat_0" class="gt_row gt_center">931</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">Causa básica do óbito</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    B20</td>
+<td headers="stat_0" class="gt_row gt_center">4,743 (68%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    B21</td>
+<td headers="stat_0" class="gt_row gt_center">93 (1.3%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    B22</td>
+<td headers="stat_0" class="gt_row gt_center">680 (9.7%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    B23</td>
+<td headers="stat_0" class="gt_row gt_center">154 (2.2%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    B24</td>
+<td headers="stat_0" class="gt_row gt_center">1,353 (19%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">Ano do óbito</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2011</td>
+<td headers="stat_0" class="gt_row gt_center">507 (7.2%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2012</td>
+<td headers="stat_0" class="gt_row gt_center">514 (7.3%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2013</td>
+<td headers="stat_0" class="gt_row gt_center">601 (8.6%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2014</td>
+<td headers="stat_0" class="gt_row gt_center">625 (8.9%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2015</td>
+<td headers="stat_0" class="gt_row gt_center">664 (9.5%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2016</td>
+<td headers="stat_0" class="gt_row gt_center">669 (9.5%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2017</td>
+<td headers="stat_0" class="gt_row gt_center">667 (9.5%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2018</td>
+<td headers="stat_0" class="gt_row gt_center">687 (9.8%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2019</td>
+<td headers="stat_0" class="gt_row gt_center">709 (10%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2020</td>
+<td headers="stat_0" class="gt_row gt_center">672 (9.6%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">    2021</td>
+<td headers="stat_0" class="gt_row gt_center">708 (10%)</td></tr>
+  </tbody>
+  
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="2"><sup class="gt_footnote_marks">1</sup> n (%)</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+<table>
+<thead>
 <tr>
-<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;Characteristic&lt;/strong&gt;">
-<strong>Characteristic</strong>
+<th style="text-align:left;">
+Var1
 </th>
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;N = 7,023&lt;/strong&gt;&lt;sup class=&quot;gt_footnote_marks&quot;&gt;1&lt;/sup&gt;">
-<strong>N = 7,023</strong><sup class="gt_footnote_marks">1</sup>
+<th style="text-align:right;">
+Freq
 </th>
 </tr>
 </thead>
-<tbody class="gt_table_body">
+<tbody>
 <tr>
-<td headers="label" class="gt_row gt_left">
-Sexo
+<td style="text-align:left;">
+Nenhuma
 </td>
-<td headers="stat_0" class="gt_row gt_center">
+<td style="text-align:right;">
+602
 </td>
 </tr>
 <tr>
-<td headers="label" class="gt_row gt_left">
-    Feminino
+<td style="text-align:left;">
+1 a 3 anos
 </td>
-<td headers="stat_0" class="gt_row gt_center">
-2,263 (32%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    Masculino
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-4,760 (68%)
+<td style="text-align:right;">
+1551
 </td>
 </tr>
 <tr>
-<td headers="label" class="gt_row gt_left">
-Faixa etária
+<td style="text-align:left;">
+4 a 7 anos
 </td>
-<td headers="stat_0" class="gt_row gt_center">
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    0 - 14
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-70 (1.0%)
+<td style="text-align:right;">
+1851
 </td>
 </tr>
 <tr>
-<td headers="label" class="gt_row gt_left">
-    15 - 19
+<td style="text-align:left;">
+8 a 11 anos
 </td>
-<td headers="stat_0" class="gt_row gt_center">
-80 (1.1%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    20 - 29
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-1,327 (19%)
+<td style="text-align:right;">
+1666
 </td>
 </tr>
 <tr>
-<td headers="label" class="gt_row gt_left">
-    30 - 39
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-2,219 (32%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    40 - 49
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-1,699 (24%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    50 - 59
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-1,021 (15%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    60+
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-555 (8.0%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    Unknown
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-52
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-Raça/Cor
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    Amarela
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-23 (0.3%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    Branca
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-891 (13%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    Indígena
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-10 (0.1%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    Parda
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-5,426 (78%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    Preta
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-575 (8.3%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    Unknown
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-98
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-Escolaridade
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    Nenhuma
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-602 (9.9%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    1 a 3 anos
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-1,551 (25%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    4 a 7 anos
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-1,851 (30%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    8 a 11 anos
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-1,666 (27%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    12 anos ou mais
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-422 (6.9%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    Unknown
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-931
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-Causa básica do óbito
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    B20
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-4,743 (68%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    B21
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-93 (1.3%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    B22
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-680 (9.7%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    B23
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-154 (2.2%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    B24
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-1,353 (19%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-Ano do óbito
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2011
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-507 (7.2%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2012
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-514 (7.3%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2013
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-601 (8.6%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2014
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-625 (8.9%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2015
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-664 (9.5%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2016
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-669 (9.5%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2017
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-667 (9.5%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2018
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-687 (9.8%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2019
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-709 (10%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2020
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-672 (9.6%)
-</td>
-</tr>
-<tr>
-<td headers="label" class="gt_row gt_left">
-    2021
-</td>
-<td headers="stat_0" class="gt_row gt_center">
-708 (10%)
+<td style="text-align:left;">
+12 anos ou mais
+</td>
+<td style="text-align:right;">
+422
 </td>
 </tr>
 </tbody>
-<tfoot class="gt_footnotes">
-<tr>
-<td class="gt_footnote" colspan="2">
-<sup class="gt_footnote_marks">1</sup> n (%)
-</td>
-</tr>
-</tfoot>
 </table>
-
-</div>
 
 A partir dessa tabela podemos chegar a algumas conclusões, são elas:
 
@@ -880,14 +669,14 @@ número de óbitos foi de **708**, **1.36%** do total.
 A **Tabela 2** por sua vez sumariza os resultados observados ao longo do
 período do estudo:
 
-<div id="cdzjdrrfst"
+<div id="jcaxuhcpkx"
 style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#cdzjdrrfst .gt_table {
+#jcaxuhcpkx .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -912,7 +701,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-left-color: #D3D3D3;
 }
 
-#cdzjdrrfst .gt_heading {
+#jcaxuhcpkx .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -924,12 +713,12 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#cdzjdrrfst .gt_caption {
+#jcaxuhcpkx .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#cdzjdrrfst .gt_title {
+#jcaxuhcpkx .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -941,7 +730,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-width: 0;
 }
 
-#cdzjdrrfst .gt_subtitle {
+#jcaxuhcpkx .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -953,13 +742,13 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-width: 0;
 }
 
-#cdzjdrrfst .gt_bottom_border {
+#jcaxuhcpkx .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#cdzjdrrfst .gt_col_headings {
+#jcaxuhcpkx .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -974,7 +763,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#cdzjdrrfst .gt_col_heading {
+#jcaxuhcpkx .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -994,7 +783,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#cdzjdrrfst .gt_column_spanner_outer {
+#jcaxuhcpkx .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1006,15 +795,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 4px;
 }
 
-#cdzjdrrfst .gt_column_spanner_outer:first-child {
+#jcaxuhcpkx .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#cdzjdrrfst .gt_column_spanner_outer:last-child {
+#jcaxuhcpkx .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#cdzjdrrfst .gt_column_spanner {
+#jcaxuhcpkx .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1026,7 +815,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   width: 100%;
 }
 
-#cdzjdrrfst .gt_group_heading {
+#jcaxuhcpkx .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1052,7 +841,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   text-align: left;
 }
 
-#cdzjdrrfst .gt_empty_group_heading {
+#jcaxuhcpkx .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1067,15 +856,15 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: middle;
 }
 
-#cdzjdrrfst .gt_from_md > :first-child {
+#jcaxuhcpkx .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#cdzjdrrfst .gt_from_md > :last-child {
+#jcaxuhcpkx .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#cdzjdrrfst .gt_row {
+#jcaxuhcpkx .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1094,7 +883,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   overflow-x: hidden;
 }
 
-#cdzjdrrfst .gt_stub {
+#jcaxuhcpkx .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1107,7 +896,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#cdzjdrrfst .gt_stub_row_group {
+#jcaxuhcpkx .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1121,11 +910,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   vertical-align: top;
 }
 
-#cdzjdrrfst .gt_row_group_first td {
+#jcaxuhcpkx .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#cdzjdrrfst .gt_summary_row {
+#jcaxuhcpkx .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1135,16 +924,16 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#cdzjdrrfst .gt_first_summary_row {
+#jcaxuhcpkx .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#cdzjdrrfst .gt_first_summary_row.thick {
+#jcaxuhcpkx .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#cdzjdrrfst .gt_last_summary_row {
+#jcaxuhcpkx .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1154,7 +943,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#cdzjdrrfst .gt_grand_summary_row {
+#jcaxuhcpkx .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1164,7 +953,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#cdzjdrrfst .gt_first_grand_summary_row {
+#jcaxuhcpkx .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1174,11 +963,11 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-top-color: #D3D3D3;
 }
 
-#cdzjdrrfst .gt_striped {
+#jcaxuhcpkx .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#cdzjdrrfst .gt_table_body {
+#jcaxuhcpkx .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1187,7 +976,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-bottom-color: #D3D3D3;
 }
 
-#cdzjdrrfst .gt_footnotes {
+#jcaxuhcpkx .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1201,7 +990,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#cdzjdrrfst .gt_footnote {
+#jcaxuhcpkx .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -1210,7 +999,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#cdzjdrrfst .gt_sourcenotes {
+#jcaxuhcpkx .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1224,7 +1013,7 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   border-right-color: #D3D3D3;
 }
 
-#cdzjdrrfst .gt_sourcenote {
+#jcaxuhcpkx .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1232,64 +1021,64 @@ style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;o
   padding-right: 5px;
 }
 
-#cdzjdrrfst .gt_left {
+#jcaxuhcpkx .gt_left {
   text-align: left;
 }
 
-#cdzjdrrfst .gt_center {
+#jcaxuhcpkx .gt_center {
   text-align: center;
 }
 
-#cdzjdrrfst .gt_right {
+#jcaxuhcpkx .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#cdzjdrrfst .gt_font_normal {
+#jcaxuhcpkx .gt_font_normal {
   font-weight: normal;
 }
 
-#cdzjdrrfst .gt_font_bold {
+#jcaxuhcpkx .gt_font_bold {
   font-weight: bold;
 }
 
-#cdzjdrrfst .gt_font_italic {
+#jcaxuhcpkx .gt_font_italic {
   font-style: italic;
 }
 
-#cdzjdrrfst .gt_super {
+#jcaxuhcpkx .gt_super {
   font-size: 65%;
 }
 
-#cdzjdrrfst .gt_footnote_marks {
+#jcaxuhcpkx .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#cdzjdrrfst .gt_asterisk {
+#jcaxuhcpkx .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#cdzjdrrfst .gt_indent_1 {
+#jcaxuhcpkx .gt_indent_1 {
   text-indent: 5px;
 }
 
-#cdzjdrrfst .gt_indent_2 {
+#jcaxuhcpkx .gt_indent_2 {
   text-indent: 10px;
 }
 
-#cdzjdrrfst .gt_indent_3 {
+#jcaxuhcpkx .gt_indent_3 {
   text-indent: 15px;
 }
 
-#cdzjdrrfst .gt_indent_4 {
+#jcaxuhcpkx .gt_indent_4 {
   text-indent: 20px;
 }
 
-#cdzjdrrfst .gt_indent_5 {
+#jcaxuhcpkx .gt_indent_5 {
   text-indent: 25px;
 }
 </style>

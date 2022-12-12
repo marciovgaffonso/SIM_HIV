@@ -2,7 +2,7 @@
 title: "Análise histórica dos óbitos por doenças associadas ao HIV no Estado do Pará"
 author: "Márcio V de G Affonso"
 date: "2022-12-11"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -44,16 +44,17 @@ Considerando que estamos no mês **Dezembro Vermelho**, alusivo ao combate ao HI
 
 ### 1. Distribuição dos óbitos por doenças pelo HIV: um corte transversal
 
-```{r, include=FALSE}
+```{r, echo=FALSE}
 # 1. Leitura dos pacotes necessários para análise
 
 library(microdatasus)
 library(tidyverse)
 library(gtsummary)
 library(lubridate)
-library(geobr)
 library(readr)
 library(usethis)
+library(kableExtra)
+
 
 ```
 
@@ -111,15 +112,16 @@ Durante o período entre 2011 e 2021 no Estado do Pará foram registrados **`r n
 
 A **Tabela 1**, que sumariza as características dos óbitos que ocorreram nesse período, pode ser vista abaixo:
 
-```{r, echo=FALSE, results='asis'}
+```{r, echo=FALSE}
 #6. Tabela descritiva
-tabela_descritiva <- dados_hiv %>% 
+dados_hiv %>% 
   select(SEXO, faixa_etaria, RACACOR, ESC, CAUSABAS, ANO_OBITO) %>% 
   tbl_summary(label = list(SEXO ~ "Sexo", RACACOR ~ "Raça/Cor", ESC ~ "Escolaridade",
               CAUSABAS ~ "Causa básica do óbito", faixa_etaria ~ "Faixa etária",
               ANO_OBITO ~"Ano do óbito")) 
 
-print(tabela_descritiva)
+kable(table(dados_hiv$ESC))
+
 
 ```
 
@@ -160,12 +162,14 @@ No geral, em 2011, foram registrados **`r freq_rel$n[2]`** óbitos por doenças 
 
 A **Tabela 2** por sua vez sumariza os resultados observados ao longo do período do estudo:
 
-```{r, echo=FALSE}
-dados_hiv %>% 
+```{r, echo=FALSE, results='asis'}
+tabela_descritiva2 <- dados_hiv %>% 
   select(SEXO, faixa_etaria, RACACOR, ESC, CAUSABAS, ANO_OBITO) %>%  
   tbl_summary(by = ANO_OBITO,
               label = list(SEXO ~ "Sexo", RACACOR ~ "Raça/Cor", ESC ~ "Escolaridade",
               CAUSABAS ~ "Causa básica do óbito", faixa_etaria ~ "Faixa etária"))
+
+print(tabela_descritiva2)
 ```
 
 Nesse sentido, podemos observar as seguintes variações:
