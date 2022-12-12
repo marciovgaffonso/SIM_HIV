@@ -49,6 +49,7 @@ Considerando que estamos no mês **Dezembro Vermelho**, alusivo ao combate ao HI
 
 library(microdatasus)
 library(tidyverse)
+library(gt)
 library(gtsummary)
 library(lubridate)
 library(readr)
