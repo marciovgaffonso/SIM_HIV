@@ -54,8 +54,7 @@ library(lubridate)
 library(geobr)
 library(readr)
 library(usethis)
-library(kableExtra)
-library(knitr)
+
 ```
 
 
@@ -112,14 +111,15 @@ Durante o período entre 2011 e 2021 no Estado do Pará foram registrados **`r n
 
 A **Tabela 1**, que sumariza as características dos óbitos que ocorreram nesse período, pode ser vista abaixo:
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, results='asis'}
 #6. Tabela descritiva
-dados_hiv %>% 
+tabela_descritiva <- dados_hiv %>% 
   select(SEXO, faixa_etaria, RACACOR, ESC, CAUSABAS, ANO_OBITO) %>% 
   tbl_summary(label = list(SEXO ~ "Sexo", RACACOR ~ "Raça/Cor", ESC ~ "Escolaridade",
               CAUSABAS ~ "Causa básica do óbito", faixa_etaria ~ "Faixa etária",
-              ANO_OBITO ~"Ano do óbito")) %>%
-  as_gt()
+              ANO_OBITO ~"Ano do óbito")) 
+
+print(tabela_descritiva)
 
 ```
 
