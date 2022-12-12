@@ -54,8 +54,8 @@ library(gtsummary)
 library(lubridate)
 library(readr)
 library(usethis)
-library(kableExtra)
 library(rmarkdown)
+library(flextable)
 
 
 ```
@@ -116,11 +116,12 @@ A **Tabela 1**, que sumariza as características dos óbitos que ocorreram nesse
 
 ```{r, echo=FALSE}
 #6. Tabela descritiva
-dados_hiv %>% 
+tab_desc <- dados_hiv %>% 
   select(SEXO, faixa_etaria, RACACOR, ESC, CAUSABAS, ANO_OBITO) %>% 
   tbl_summary(label = list(SEXO ~ "Sexo", RACACOR ~ "Raça/Cor", ESC ~ "Escolaridade",
               CAUSABAS ~ "Causa básica do óbito", faixa_etaria ~ "Faixa etária",
-              ANO_OBITO ~"Ano do óbito")) 
+              ANO_OBITO ~"Ano do óbito"))
+as_kable(tab_desc)
 
 
 ```
@@ -139,11 +140,6 @@ A partir dessa tabela podemos chegar a algumas conclusões, são elas:
 -   **90%** dos óbitos se concentraram na faixa etária de 20 a 59 anos.
 
 Quanto à distribuição dos óbitos, tais achados nos auxiliam na identificação de alguns grupos predominantes, contudo apenas essa análise transversal não é suficiente para identificarmos possíveis nuances e variações. Portanto, é necessária também uma análise temporal.
-
-```{r}
-kable(table(dados_hiv$ESC))
-```
-
 
 ### 2. Análise histórica dos óbitos por doenças pelo HIV: houve diferença ao longo dos anos?
 
@@ -167,13 +163,11 @@ No geral, em 2011, foram registrados **`r freq_rel$n[2]`** óbitos por doenças 
 A **Tabela 2** por sua vez sumariza os resultados observados ao longo do período do estudo:
 
 ```{r, echo=FALSE, results='asis'}
-tabela_descritiva2 <- dados_hiv %>% 
+dados_hiv %>% 
   select(SEXO, faixa_etaria, RACACOR, ESC, CAUSABAS, ANO_OBITO) %>%  
   tbl_summary(by = ANO_OBITO,
               label = list(SEXO ~ "Sexo", RACACOR ~ "Raça/Cor", ESC ~ "Escolaridade",
               CAUSABAS ~ "Causa básica do óbito", faixa_etaria ~ "Faixa etária"))
-
-print(tabela_descritiva2)
 ```
 
 Nesse sentido, podemos observar as seguintes variações:
